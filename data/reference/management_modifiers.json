@@ -1,0 +1,114 @@
+{
+  "description": "Management practice impact on disease/stress risk",
+  "tillage": {
+    "no-till": {
+      "emergence_challenge": 0.2,
+      "gls_risk": 0.15,
+      "nclb_risk": 0.15,
+      "tar_spot_risk": 0.1,
+      "sds_risk": 0.1,
+      "erosion_risk": -0.3
+    },
+    "strip-till": {
+      "emergence_challenge": 0.1,
+      "gls_risk": 0.1,
+      "nclb_risk": 0.1,
+      "tar_spot_risk": 0.05,
+      "sds_risk": 0.05,
+      "erosion_risk": -0.2
+    },
+    "minimum-till": {
+      "emergence_challenge": 0.05,
+      "gls_risk": 0.05,
+      "nclb_risk": 0.05,
+      "tar_spot_risk": 0.0,
+      "sds_risk": 0.0,
+      "erosion_risk": -0.1
+    },
+    "conventional": {
+      "emergence_challenge": -0.1,
+      "gls_risk": -0.2,
+      "nclb_risk": -0.2,
+      "tar_spot_risk": -0.1,
+      "sds_risk": -0.1,
+      "erosion_risk": 0.2
+    }
+  },
+  "rotation": {
+    "corn_on_corn": {
+      "gls_risk": 0.3,
+      "nclb_risk": 0.2,
+      "tar_spot_risk": 0.2,
+      "crw_risk": 0.4,
+      "yield_drag": -0.05
+    },
+    "soy_on_soy": {
+      "scn_risk": 0.3,
+      "sds_risk": 0.2,
+      "white_mold_risk": 0.15,
+      "yield_drag": -0.08
+    },
+    "corn_soy_rotation": {
+      "notes": "Standard rotation, baseline risk"
+    },
+    "corn_soy_wheat": {
+      "gls_risk": -0.1,
+      "scn_risk": -0.1,
+      "white_mold_risk": -0.1
+    }
+  },
+  "irrigation": {
+    "pivot": {
+      "drought_tolerance_need": -0.5,
+      "white_mold_risk": 0.1,
+      "gls_risk": 0.05
+    },
+    "drip": {
+      "drought_tolerance_need": -0.4,
+      "white_mold_risk": 0.05
+    },
+    "none": {
+      "notes": "Use environmental baseline"
+    }
+  },
+  "fungicide_program": {
+    "routine": {
+      "disease_tolerance_weight": -0.3,
+      "notes": "Can relax disease tolerance requirements"
+    },
+    "as_needed": {
+      "disease_tolerance_weight": -0.1
+    },
+    "none": {
+      "disease_tolerance_weight": 0.2,
+      "notes": "Need more tolerant varieties"
+    }
+  },
+  "seed_treatment": {
+    "premium": {
+      "emergence_challenge": -0.15,
+      "phytophthora_risk": -0.1,
+      "sds_risk": -0.1
+    },
+    "basic": {
+      "emergence_challenge": -0.05
+    },
+    "none": {
+      "emergence_challenge": 0.1
+    }
+  },
+  "row_spacing": {
+    "15_inch": {
+      "white_mold_risk": 0.15,
+      "canopy_closure": "fast"
+    },
+    "20_inch": {
+      "white_mold_risk": 0.1,
+      "canopy_closure": "medium"
+    },
+    "30_inch": {
+      "white_mold_risk": 0.0,
+      "canopy_closure": "standard"
+    }
+  }
+}

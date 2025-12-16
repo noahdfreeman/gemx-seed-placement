@@ -1,0 +1,159 @@
+{
+  "corn": {
+    "gray_leaf_spot": {
+      "description": "Gray Leaf Spot regional prevalence",
+      "notes": "Higher in humid corn belt, corn-on-corn, no-till",
+      "by_state": {
+        "IA": 0.4,
+        "IL": 0.5,
+        "IN": 0.5,
+        "OH": 0.4,
+        "NE": 0.3,
+        "KS": 0.3,
+        "MN": 0.3,
+        "WI": 0.3,
+        "MO": 0.5,
+        "SD": 0.2,
+        "ND": 0.2
+      }
+    },
+    "northern_leaf_blight": {
+      "description": "Northern Corn Leaf Blight regional prevalence",
+      "notes": "Favored by cool, wet conditions",
+      "by_state": {
+        "IA": 0.3,
+        "IL": 0.4,
+        "IN": 0.4,
+        "OH": 0.4,
+        "NE": 0.3,
+        "KS": 0.2,
+        "MN": 0.4,
+        "WI": 0.4,
+        "MO": 0.3,
+        "SD": 0.3,
+        "ND": 0.3
+      }
+    },
+    "tar_spot": {
+      "description": "Tar Spot regional prevalence (expanding)",
+      "notes": "Relatively new disease, spreading from Great Lakes region",
+      "by_state": {
+        "IA": 0.4,
+        "IL": 0.5,
+        "IN": 0.6,
+        "OH": 0.5,
+        "NE": 0.2,
+        "KS": 0.1,
+        "MN": 0.3,
+        "WI": 0.5,
+        "MO": 0.3,
+        "SD": 0.1,
+        "ND": 0.1
+      }
+    },
+    "gosss_wilt": {
+      "description": "Goss's Wilt regional prevalence",
+      "notes": "More common in western corn belt, hail damage increases risk",
+      "by_state": {
+        "IA": 0.3,
+        "IL": 0.2,
+        "IN": 0.2,
+        "OH": 0.1,
+        "NE": 0.5,
+        "KS": 0.4,
+        "MN": 0.2,
+        "WI": 0.2,
+        "MO": 0.2,
+        "SD": 0.4,
+        "ND": 0.3
+      }
+    }
+  },
+  "soybean": {
+    "sudden_death_syndrome": {
+      "description": "SDS regional prevalence",
+      "notes": "Cool wet planting, compaction, SCN presence increases risk",
+      "by_state": {
+        "IA": 0.4,
+        "IL": 0.5,
+        "IN": 0.4,
+        "OH": 0.3,
+        "NE": 0.3,
+        "KS": 0.3,
+        "MN": 0.3,
+        "WI": 0.3,
+        "MO": 0.5,
+        "SD": 0.2,
+        "ND": 0.2
+      }
+    },
+    "soybean_cyst_nematode": {
+      "description": "SCN regional prevalence",
+      "notes": "Widespread, continuous soy increases populations",
+      "by_state": {
+        "IA": 0.7,
+        "IL": 0.7,
+        "IN": 0.6,
+        "OH": 0.5,
+        "NE": 0.5,
+        "KS": 0.5,
+        "MN": 0.6,
+        "WI": 0.5,
+        "MO": 0.7,
+        "SD": 0.5,
+        "ND": 0.4
+      }
+    },
+    "phytophthora": {
+      "description": "Phytophthora root rot regional prevalence",
+      "notes": "Poor drainage, saturated soils increase risk",
+      "by_state": {
+        "IA": 0.4,
+        "IL": 0.4,
+        "IN": 0.5,
+        "OH": 0.5,
+        "NE": 0.3,
+        "KS": 0.3,
+        "MN": 0.4,
+        "WI": 0.4,
+        "MO": 0.4,
+        "SD": 0.3,
+        "ND": 0.3
+      }
+    },
+    "white_mold": {
+      "description": "White Mold (Sclerotinia) regional prevalence",
+      "notes": "Dense canopy, cool wet flowering, narrow rows increase risk",
+      "by_state": {
+        "IA": 0.4,
+        "IL": 0.3,
+        "IN": 0.3,
+        "OH": 0.3,
+        "NE": 0.3,
+        "KS": 0.2,
+        "MN": 0.5,
+        "WI": 0.5,
+        "MO": 0.2,
+        "SD": 0.4,
+        "ND": 0.5
+      }
+    },
+    "iron_deficiency_chlorosis": {
+      "description": "IDC risk by state",
+      "notes": "High pH, calcareous soils, wet conditions",
+      "by_state": {
+        "IA": 0.3,
+        "IL": 0.2,
+        "IN": 0.2,
+        "OH": 0.2,
+        "NE": 0.4,
+        "KS": 0.4,
+        "MN": 0.6,
+        "WI": 0.3,
+        "MO": 0.2,
+        "SD": 0.6,
+        "ND": 0.7
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "fields": [
+    {
+      "id": "field_001",
+      "name": "Johnson North 80",
+      "county": "Clinton",
+      "state": "IL",
+      "acres": 78.5,
+      "environment": {
+        "soil_texture": "Silt Loam",
+        "drainage_class": "Moderately Well Drained",
+        "awc": 0.21,
+        "ph": 6.4,
+        "organic_matter": 3.8,
+        "cec": 18.5,
+        "slope": 1.5,
+        "gdd_normal": 2850,
+        "precip_normal": 38.2,
+        "heat_stress_days": 8
+      },
+      "disease_risk": {
+        "gray_leaf_spot": 6,
+        "northern_corn_leaf_blight": 5,
+        "tar_spot": 4,
+        "goss_wilt": 3,
+        "sds": 5,
+        "scn": 7,
+        "phytophthora": 4,
+        "white_mold": 3
+      }
+    },
+    {
+      "id": "field_002",
+      "name": "Miller Bottom",
+      "county": "Vermillion",
+      "state": "IN",
+      "acres": 125.3,
+      "environment": {
+        "soil_texture": "Silty Clay Loam",
+        "drainage_class": "Somewhat Poorly Drained",
+        "awc": 0.19,
+        "ph": 6.8,
+        "organic_matter": 4.5,
+        "cec": 22.0,
+        "slope": 0.5,
+        "gdd_normal": 2920,
+        "precip_normal": 40.1,
+        "heat_stress_days": 10
+      },
+      "disease_risk": {
+        "gray_leaf_spot": 7,
+        "northern_corn_leaf_blight": 6,
+        "tar_spot": 5,
+        "goss_wilt": 4,
+        "sds": 8,
+        "scn": 8,
+        "phytophthora": 7,
+        "white_mold": 6
+      }
+    },
+    {
+      "id": "field_003",
+      "name": "Smith Sandy",
+      "county": "Iroquois",
+      "state": "IL",
+      "acres": 62.0,
+      "environment": {
+        "soil_texture": "Sandy Loam",
+        "drainage_class": "Well Drained",
+        "awc": 0.12,
+        "ph": 5.9,
+        "organic_matter": 2.1,
+        "cec": 10.5,
+        "slope": 2.5,
+        "gdd_normal": 2780,
+        "precip_normal": 36.5,
+        "heat_stress_days": 12
+      },
+      "disease_risk": {
+        "gray_leaf_spot": 4,
+        "northern_corn_leaf_blight": 4,
+        "tar_spot": 3,
+        "goss_wilt": 2,
+        "sds": 3,
+        "scn": 5,
+        "phytophthora": 2,
+        "white_mold": 2
+      }
+    },
+    {
+      "id": "field_004",
+      "name": "Davis Tile Drained",
+      "county": "Tippecanoe",
+      "state": "IN",
+      "acres": 156.8,
+      "environment": {
+        "soil_texture": "Silty Clay",
+        "drainage_class": "Poorly Drained",
+        "awc": 0.17,
+        "ph": 7.2,
+        "organic_matter": 5.2,
+        "cec": 28.0,
+        "slope": 0.3,
+        "gdd_normal": 2950,
+        "precip_normal": 41.5,
+        "heat_stress_days": 9
+      },
+      "disease_risk": {
+        "gray_leaf_spot": 8,
+        "northern_corn_leaf_blight": 7,
+        "tar_spot": 6,
+        "goss_wilt": 5,
+        "sds": 9,
+        "scn": 9,
+        "phytophthora": 8,
+        "white_mold": 7
+      }
+    },
+    {
+      "id": "field_005",
+      "name": "Wilson Upland",
+      "county": "Champaign",
+      "state": "IL",
+      "acres": 95.2,
+      "environment": {
+        "soil_texture": "Silt Loam",
+        "drainage_class": "Well Drained",
+        "awc": 0.22,
+        "ph": 6.6,
+        "organic_matter": 3.5,
+        "cec": 17.0,
+        "slope": 3.0,
+        "gdd_normal": 2820,
+        "precip_normal": 37.8,
+        "heat_stress_days": 7
+      },
+      "disease_risk": {
+        "gray_leaf_spot": 5,
+        "northern_corn_leaf_blight": 5,
+        "tar_spot": 4,
+        "goss_wilt": 3,
+        "sds": 4,
+        "scn": 6,
+        "phytophthora": 3,
+        "white_mold": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "hybrids": [
+    {
+      "id": "DK62-44",
+      "brand": "DeKalb",
+      "name": "DKC62-44",
+      "relative_maturity": 112,
+      "traits": {
+        "drought_tolerance": 7,
+        "gray_leaf_spot": 6,
+        "northern_corn_leaf_blight": 7,
+        "tar_spot": 5,
+        "goss_wilt": 6,
+        "stalk_strength": 7,
+        "root_strength": 8,
+        "test_weight": 7,
+        "drydown": 6
+      },
+      "technology": ["VT2P", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [32000, 36000],
+      "notes": "Excellent roots, good stress tolerance"
+    },
+    {
+      "id": "DK64-35",
+      "brand": "DeKalb",
+      "name": "DKC64-35",
+      "relative_maturity": 114,
+      "traits": {
+        "drought_tolerance": 5,
+        "gray_leaf_spot": 8,
+        "northern_corn_leaf_blight": 8,
+        "tar_spot": 7,
+        "goss_wilt": 7,
+        "stalk_strength": 6,
+        "root_strength": 6,
+        "test_weight": 8,
+        "drydown": 7
+      },
+      "technology": ["VT2P", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [30000, 34000],
+      "notes": "Top disease package, needs good soils"
+    },
+    {
+      "id": "P1082",
+      "brand": "Pioneer",
+      "name": "P1082AM",
+      "relative_maturity": 110,
+      "traits": {
+        "drought_tolerance": 8,
+        "gray_leaf_spot": 5,
+        "northern_corn_leaf_blight": 6,
+        "tar_spot": 4,
+        "goss_wilt": 5,
+        "stalk_strength": 8,
+        "root_strength": 8,
+        "test_weight": 6,
+        "drydown": 8
+      },
+      "technology": ["AM", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [32000, 38000],
+      "notes": "Stress hybrid, fast drydown"
+    },
+    {
+      "id": "P1185",
+      "brand": "Pioneer",
+      "name": "P1185Q",
+      "relative_maturity": 111,
+      "traits": {
+        "drought_tolerance": 6,
+        "gray_leaf_spot": 7,
+        "northern_corn_leaf_blight": 7,
+        "tar_spot": 6,
+        "goss_wilt": 6,
+        "stalk_strength": 7,
+        "root_strength": 7,
+        "test_weight": 7,
+        "drydown": 7
+      },
+      "technology": ["Qrome", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [31000, 35000],
+      "notes": "Balanced hybrid, wide adaptability"
+    },
+    {
+      "id": "P1366",
+      "brand": "Pioneer",
+      "name": "P1366AM",
+      "relative_maturity": 113,
+      "traits": {
+        "drought_tolerance": 4,
+        "gray_leaf_spot": 8,
+        "northern_corn_leaf_blight": 9,
+        "tar_spot": 8,
+        "goss_wilt": 8,
+        "stalk_strength": 6,
+        "root_strength": 5,
+        "test_weight": 8,
+        "drydown": 5
+      },
+      "technology": ["AM", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [28000, 32000],
+      "notes": "Disease fighter, needs moisture"
+    },
+    {
+      "id": "AG6520",
+      "brand": "Asgrow",
+      "name": "AG6520VT2P",
+      "relative_maturity": 115,
+      "traits": {
+        "drought_tolerance": 6,
+        "gray_leaf_spot": 6,
+        "northern_corn_leaf_blight": 6,
+        "tar_spot": 6,
+        "goss_wilt": 5,
+        "stalk_strength": 7,
+        "root_strength": 7,
+        "test_weight": 7,
+        "drydown": 6
+      },
+      "technology": ["VT2P", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [30000, 34000],
+      "notes": "Consistent performer, good flex ear"
+    },
+    {
+      "id": "NK1082",
+      "brand": "NK",
+      "name": "NK1082-3220",
+      "relative_maturity": 108,
+      "traits": {
+        "drought_tolerance": 9,
+        "gray_leaf_spot": 4,
+        "northern_corn_leaf_blight": 5,
+        "tar_spot": 3,
+        "goss_wilt": 4,
+        "stalk_strength": 8,
+        "root_strength": 9,
+        "test_weight": 5,
+        "drydown": 9
+      },
+      "technology": ["3220", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [34000, 40000],
+      "notes": "Short season stress hybrid"
+    },
+    {
+      "id": "LH5245",
+      "brand": "LG Seeds",
+      "name": "LH5245VT2P",
+      "relative_maturity": 112,
+      "traits": {
+        "drought_tolerance": 7,
+        "gray_leaf_spot": 7,
+        "northern_corn_leaf_blight": 7,
+        "tar_spot": 6,
+        "goss_wilt": 7,
+        "stalk_strength": 7,
+        "root_strength": 7,
+        "test_weight": 7,
+        "drydown": 7
+      },
+      "technology": ["VT2P", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [31000, 35000],
+      "notes": "All-around solid hybrid"
+    },
+    {
+      "id": "W7117",
+      "brand": "Wyffels",
+      "name": "W7117",
+      "relative_maturity": 111,
+      "traits": {
+        "drought_tolerance": 6,
+        "gray_leaf_spot": 6,
+        "northern_corn_leaf_blight": 6,
+        "tar_spot": 5,
+        "goss_wilt": 5,
+        "stalk_strength": 8,
+        "root_strength": 8,
+        "test_weight": 8,
+        "drydown": 6
+      },
+      "technology": ["VT2P", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [32000, 36000],
+      "notes": "Strong stalks, high test weight"
+    },
+    {
+      "id": "B2166",
+      "brand": "Beck's",
+      "name": "2166AM",
+      "relative_maturity": 116,
+      "traits": {
+        "drought_tolerance": 5,
+        "gray_leaf_spot": 7,
+        "northern_corn_leaf_blight": 8,
+        "tar_spot": 7,
+        "goss_wilt": 6,
+        "stalk_strength": 6,
+        "root_strength": 6,
+        "test_weight": 8,
+        "drydown": 5
+      },
+      "technology": ["AM", "RIB"],
+      "herbicide_traits": ["RR2", "LL"],
+      "population_range": [28000, 32000],
+      "notes": "Full season yield, needs good drainage"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# GEMx Backend Dependencies
+# Core
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+
+# Database
+sqlalchemy>=2.0.0
+asyncpg>=0.29.0
+geoalchemy2>=0.14.0
+
+# Spatial
+geopandas>=0.14.0
+rasterio>=1.3.0
+shapely>=2.0.0
+pyproj>=3.6.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# API utilities
+python-multipart>=0.0.6
+httpx>=0.25.0
+
+# Auth (future)
+# python-jose>=3.3.0
+# passlib>=1.7.4
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
