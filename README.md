@@ -163,4 +163,80 @@ GEMX/
 
 ## Getting Started
 
-*Implementation pending. See docs/ for architecture and design.*
+### Local Development
+
+```bash
+cd C:\Users\noahd\Projects\04_experiments\GEMX
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+```
+
+App runs at http://localhost:8501
+
+### Live Deployment
+
+**URL:** https://gemx-seed-placement.streamlit.app
+
+**GitHub Repo:** https://github.com/noahdfreeman/gemx-seed-placement (public)
+
+**Deployment Platform:** Streamlit Community Cloud
+
+To redeploy after changes:
+```bash
+git add -A
+git commit -m "Your commit message"
+git push
+```
+Streamlit Cloud auto-deploys on push to `main`.
+
+---
+
+## MVP Status (December 2024)
+
+### What's Built
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| Streamlit app | ✅ Complete | `app.py` (~400 lines) |
+| Corn hybrid catalog | ✅ Mock data | 10 hybrids with trait ratings |
+| Soybean variety catalog | ✅ Mock data | 10 varieties with trait ratings |
+| Sample fields | ✅ Mock data | 5 fields with soil/climate/disease |
+| Scoring engine | ✅ Basic | Maturity filter + weighted trait scoring |
+| Recommendations UI | ✅ Complete | Top-5 ranked with explanations |
+| Streamlit Cloud deployment | ✅ Live | Auto-deploys on push |
+
+### Data Files
+
+| File | Description |
+|------|-------------|
+| `data/products/corn_hybrids.json` | 10 mock corn hybrids (DeKalb, Pioneer, Asgrow, NK, LG, Wyffels, Beck's) |
+| `data/products/soybean_varieties.json` | 10 mock soybean varieties with SCN source, Phyto genes |
+| `data/reference/sample_fields.json` | 5 sample fields (Clinton IL, Vermillion IN, Iroquois IL, Tippecanoe IN, Champaign IL) |
+
+### Scoring Algorithm Summary
+
+**Corn:**
+- Hard filter: RM must fit GDD zone
+- Hard filter: Herbicide traits must match program
+- Soft scoring: Drought (20%), Disease (35%), Standability (25%), Maturity fit (20%)
+- Disease weight increases on high-risk fields
+- Population adjusted by AWC and drainage
+
+**Soybeans:**
+- Hard filter: MG must fit zone
+- Hard filter: Herbicide traits (XtendFlex/Enlist E3)
+- Soft scoring: Disease (40%), Maturity (20%), Drought (15%), IDC (10%), Standability (15%)
+- SCN source (Peking vs PI88788) noted in explanations
+- IDC scoring triggered by pH > 7.5
+
+### Next Steps (Phase 2)
+
+- [ ] Replace mock data with real hybrid catalogs
+- [ ] Integrate SSURGO for real soil extraction
+- [ ] Integrate PRISM for real climate data
+- [ ] Add disease risk models
+- [ ] Convert to FastAPI + React for production
