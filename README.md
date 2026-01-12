@@ -177,6 +177,89 @@ streamlit run app.py
 
 App runs at http://localhost:8501
 
+---
+
+## Field Boundary Mapping (MVP)
+
+The Streamlit MVP supports selecting fields from mock data, uploading field boundaries, or drawing field boundaries directly in the app. Boundaries render on a map (satellite hybrid basemap) on each individual field tab.
+
+### Dependencies
+
+Field boundary mapping relies on:
+
+- `geopandas` + `fiona` (read GeoPackage)
+- `folium` + `streamlit-folium` (interactive maps)
+
+Install via:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Field Sources
+
+In the sidebar under **Field Selection**, choose **Field Source**:
+
+1) **Sample fields**
+
+- Uses `data/reference/sample_fields.json` (no geometry)
+
+2) **Upload GPKG**
+
+- Upload a GeoPackage (`.gpkg`) containing one or more field polygons.
+- Select:
+  - the **layer**
+  - an optional **field name column** (or use the base name)
+  - one or more **features** from the file
+- Optionally override field names for each selected feature.
+
+3) **Draw on map**
+
+- Draw one or more polygons/rectangles on the map.
+- Select one or more drawn shapes to use as fields.
+- Optionally override field names.
+
+### Map Basemap (Satellite “Hybrid”)
+
+Maps default to a satellite basemap with labels overlay:
+
+- **Satellite** (Esri imagery)
+- **Labels** (roads/place names overlay)
+- **Streets** (OpenStreetMap) as an option
+
+Use the map layer control to toggle basemaps/labels.
+
+### Per-field Management Lock
+
+Multi-field workflows can use different management assumptions per field.
+
+On each field tab under **🚜 Management (per-field)**:
+
+- Enable **Use field-specific management**
+- Set management values
+- Click **Lock for this field** to save the option set per field
+- Click **Unlock** to edit again
+
+Scoring and LLM reasons for that field use the saved values when per-field management is enabled.
+
+### Zoom to Field Boundary
+
+On each field tab, click **Zoom to field boundary** to re-fit the map view to the field polygon.
+
+### Notes / Known Limitations
+
+- Uploaded/drawn fields currently use placeholder environment + disease risk values so the scoring UI works. Next step would be wiring soil/weather extraction from the polygon.
+- Streamlit map widgets require unique keys per tab; the app sets unique keys so boundaries render correctly across multiple field tabs.
+
+### Troubleshooting
+
+- If **Upload GPKG** shows an error about missing dependencies, re-run:
+  ```bash
+  pip install -r requirements.txt
+  ```
+- If map changes don’t appear after edits, hard refresh the page or restart Streamlit.
+- If port `8501` is already in use, stop the existing process and re-run `streamlit run app.py`.
+
 ### Live Deployment
 
 **URL:** https://gemx-seed-placement.streamlit.app
